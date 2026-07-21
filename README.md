@@ -35,26 +35,26 @@ Field teams are left with paper forms, verbal radio reports, and maps printed be
 ┌─────────────────────────────────────────────────────────────────┐
 │  FIELD (no connectivity required)                               │
 │                                                                 │
-│  📱 KoboCollect (phone) ──► local Wi-Fi ──► KoboToolbox        │
-│                                              (Docker, offline) │
+│  📱 KoboCollect (phone) ──► local Wi-Fi ──► KoboToolbox         │
+│                                              (Docker, offline)  │
 └──────────────────────────────┬──────────────────────────────────┘
                                │ JSON via local API
                                ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │  COMMAND HUB (local machine)                                    │
 │                                                                 │
-│  kobo_to_qgis.py                                               │
-│  │                                                             │
-│  ├── ai_triage.py ──► Ollama (llama3.1:8b, local)             │
-│  │   Extract: severity / infrastructure / medical_need         │
+│  kobo_to_qgis.py                                                │
+│  │                                                              │
+│  ├── ai_triage.py ──► Ollama (llama3.1:8b, local)               │
+│  │   Extract: severity / infrastructure / medical_need          │
 │  │   Input language: Venezuelan Spanish                         │
 │  │   Output: structured JSON                                    │
-│  │                                                             │
-│  └── db_writer.py ──► SpatiaLite database                     │
+│  │                                                              │
+│  └── db_writer.py ──► SpatiaLite database                       │
 │                         disaster_triage.sqlite                  │
 │                               │                                 │
 │                               ▼                                 │
-│                        QGIS (offline)                          │
+│                        QGIS (offline)                           │
 │                        Operational map                          │
 │                        Color-coded by severity                  │
 └─────────────────────────────────────────────────────────────────┘
