@@ -77,7 +77,7 @@ The `forms/dtm_site_assessment_es.xlsx` XLSForm covers IOM's standard DTM site a
 ┌──────────────────────────────────────────────────────────────────┐
 │  FIELD TEAM (no connectivity required)                           │
 │                                                                  │
-│  📱 KoboCollect → local Wi-Fi → KoboToolbox (Docker, offline)   │
+│  📱 KoboCollect → local Wi-Fi → KoboToolbox (Docker, offline)    │
 │                                                                  │
 │  Enumerators collect DTM site assessments in Spanish             │
 │  GPS captured automatically on each submission                   │
@@ -87,18 +87,18 @@ The `forms/dtm_site_assessment_es.xlsx` XLSForm covers IOM's standard DTM site a
 ┌──────────────────────────────────────────────────────────────────┐
 │  DTM COMMAND HUB (Senior IM Associate workstation)               │
 │                                                                  │
-│  kobo_to_qgis.py                                                │
-│  │                                                              │
-│  ├── qa_validator.py   → field-level data quality checks        │
-│  │                                                              │
-│  ├── ai_classifier.py  → Ollama (llama3.1:8b, local)           │
-│  │   Extracts from free-text: priority need / protection flag   │
-│  │   / site condition / access status / population estimate     │
-│  │   Input: Venezuelan Spanish  |  Output: structured JSON      │
-│  │                                                              │
-│  └── db_writer.py      → SpatiaLite (dtm_venezuela.sqlite)     │
+│  kobo_to_qgis.py                                                 │
+│  │                                                               │
+│  ├── qa_validator.py   → field-level data quality checks         │
+│  │                                                               │
+│  ├── ai_classifier.py  → Ollama (llama3.1:8b, local)             │
+│  │   Extracts from free-text: priority need / protection flag    │
+│  │   / site condition / access status / population estimate      │
+│  │   Input: Venezuelan Spanish  |  Output: structured JSON       │
+│  │                                                               │
+│  └── db_writer.py      → SpatiaLite (dtm_venezuela.sqlite)       │
 │                               │                                  │
-│                     ┌─────────┴──────────┐                      │
+│                     ┌─────────┴──────────┐                       │
 │                     ▼                    ▼                       │
 │              QGIS (offline)        dtm_reporter.py               │
 │              Operational map       CSV / Excel export            │
