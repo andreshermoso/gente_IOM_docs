@@ -175,10 +175,10 @@ gente/
 
 This repository is the canonical GENTE platform. Three focused variants have been prepared for specific IOM operational contexts — each shares the same core architecture while emphasizing the competencies and workflows most relevant to each role:
 
-| Repository | IOM Role | Focus |
+| Repo | IOM Role | Focus |
 |---|---|---|
 | ([gente_DTM](https://github.com/andreshermoso/gente/tree/main/gente_DTM)) | Senior IM Associate — DTM (22086) | Displacement tracking, field team supervision, population mobility, geospatial analysis |
-| [andreshermoso/gente_CCCM](https://github.com/andreshermoso/gente_CCCM) | Senior IM Associate — CCCM (22097) | Master site list management, inter-cluster coordination, collective centre monitoring |
+| [gente_CCCM](https://github.com/andreshermoso/gente_CCCM) | Senior IM Associate — CCCM (22097) | Master site list management, inter-cluster coordination, collective centre monitoring |
 | [andreshermoso/gente_IMS](https://github.com/andreshermoso/gente_IMS) | Senior IMS Registration Associate (22094) | Individual registration, household deduplication, SQL schema design, system configuration |
 
 ---
