@@ -143,34 +143,6 @@ vehículos de rescate. 2 heridos reportados en el sector Las Mercedes."
 
 ---
 
-## Repository structure
-
-```
-gente/
-├── README.md                      ← this file
-├── requirements.txt               ← Python dependencies
-├── docs/
-│   ├── architecture.md            ← system design and component rationale
-│   ├── deployment.md              ← offline setup guide (hardware + software)
-│   └── venezuela-context.md       ← operational context, IM gap analysis, long-term vision
-├── pipeline/
-│   ├── kobo_to_qgis.py            ← main ETL orchestrator
-│   ├── ai_triage.py               ← Ollama prompt + JSON extractor
-│   ├── db_writer.py               ← SpatiaLite insert logic
-│   └── config.py                  ← endpoints, model names, paths
-├── forms/
-│   └── damage_survey_es.xlsx      ← KoboToolbox XLSForm (Spanish, earthquake)
-├── docker/
-│   └── docker-compose.yml         ← KoboToolbox + Ollama offline stack
-├── qgis/
-│   └── gente_project.qgz          ← QGIS project with Venezuela base layers
-└── tests/
-    ├── sample_data.json            ← fixture: 10 synthetic field reports
-    └── test_pipeline.py            ← smoke tests for pipeline components
-```
-
----
-
 ## Role-specific repositories
 
 This repository is the canonical GENTE platform. Three focused variants have been prepared for specific IOM operational contexts — each shares the same core architecture while emphasizing the competencies and workflows most relevant to each role:
