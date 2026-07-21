@@ -60,7 +60,7 @@ Field teams are left with paper forms, verbal radio reports, and maps printed be
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-See [`docs/architecture.md`](docs/architecture.md) for a detailed component breakdown and design rationale.
+See [`architecture/README.md`](architecture/README.md) for a detailed component breakdown and design rationale.
 
 ---
 
@@ -193,7 +193,7 @@ The June 24, 2026 earthquake caused widespread building collapse, road damage, a
 - **Language and geography**: field reports use Venezuelan Spanish, regional landmark references, and local administrative vocabulary not reliably handled by generic AI prompts
 - **Pre-existing displacement**: the earthquake intersected with existing internal migration corridors shaped by years of socioeconomic crisis, complicating population tracking
 
-See [`docs/venezuela-context.md`](docs/venezuela-context.md) for the full operational context, IM gap analysis, and long-term platform vision.
+See [`venezuela/README.md`](venezuela/README.md) for the full operational context, IM gap analysis, and long-term platform vision.
 
 ---
 
