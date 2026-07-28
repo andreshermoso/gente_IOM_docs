@@ -152,7 +152,10 @@ This repository is the canonical GENTE platform. Three focused variants have bee
 | [gente_DTM](https://github.com/andreshermoso/gente/tree/main/gente_DTM) | Senior IM Associate — DTM (22086) | Displacement tracking, field team supervision, population mobility, geospatial analysis |
 | [gente_CCCM](https://github.com/andreshermoso/gente/tree/main/gente_CCCM) | Senior IM Associate — CCCM (22097) | Master site list management, inter-cluster coordination, collective centre monitoring |
 | [gente_IMS](https://github.com/andreshermoso/gente/tree/main/gente_IMS) | Senior IMS Registration Associate (22094) | Individual registration, household deduplication, SQL schema design, system configuration |
+| [gente_AVRR](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_AVRR) | Assistant - AVRR (22252) | Onsite documentation verification, migrant case tracking, reception assistance workflows, and migration corridor monitoring |
 
+
+| [andreshermoso/gente_IMS](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_IMS) | Senior IMS Registration Associate (22094) |
 ---
 
 ## Venezuela operational context
