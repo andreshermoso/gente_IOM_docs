@@ -101,7 +101,7 @@ The spatial column enables all site records to be displayed simultaneously on th
 ┌──────────────────────────────────────────────────────────────────┐
 │  FIELD MONITORS (no connectivity required)                       │
 │                                                                  │
-│  📱 KoboCollect → local Wi-Fi → KoboToolbox (Docker, offline)   │
+│  📱 KoboCollect → local Wi-Fi → KoboToolbox (Docker, offline)    │
 │                                                                  │
 │  Site monitors complete CCCM monitoring form at each visit       │
 │  GPS captured; service presence checkboxes; free-text notes      │
@@ -111,27 +111,27 @@ The spatial column enables all site records to be displayed simultaneously on th
 ┌──────────────────────────────────────────────────────────────────┐
 │  CCCM COMMAND HUB (Senior IM Associate workstation)              │
 │                                                                  │
-│  kobo_to_qgis.py                                                │
-│  │                                                              │
-│  ├── qa_validator.py    → completeness + consistency checks     │
-│  │                                                              │
-│  ├── ai_classifier.py   → Ollama (llama3.1:8b, local)          │
-│  │   Extracts from free text: protection concern / service gap  │
-│  │   / overcrowding signal / site closure risk / population     │
-│  │   estimate / emerging need                                   │
-│  │   Input: Venezuelan Spanish  |  Output: structured JSON      │
-│  │                                                              │
-│  ├── db_writer.py       → SpatiaLite (cccm_venezuela.sqlite)   │
-│  │                                                              │
-│  ├── alert_engine.py    → threshold alerts (overcrowding,       │
-│  │                         service gap >72h, new site, closure) │
-│  │                                                              │
-│  └── cluster_exporter.py → standardized CSV/Excel per cluster  │
+│  kobo_to_qgis.py                                                 │
+│  │                                                               │
+│  ├── qa_validator.py    → completeness + consistency checks      │
+│  │                                                               │
+│  ├── ai_classifier.py   → Ollama (llama3.1:8b, local)            │
+│  │   Extracts from free text: protection concern / service gap   │
+│  │   / overcrowding signal / site closure risk / population      │
+│  │   estimate / emerging need                                    │
+│  │   Input: Venezuelan Spanish  |  Output: structured JSON       │
+│  │                                                               │
+│  ├── db_writer.py       → SpatiaLite (cccm_venezuela.sqlite)     │
+│  │                                                               │
+│  ├── alert_engine.py    → threshold alerts (overcrowding,        │
+│  │                         service gap >72h, new site, closure)  │
+│  │                                                               │
+│  └── cluster_exporter.py → standardized CSV/Excel per cluster.   │
 │                               │                                  │
-│                     ┌─────────┴──────────┐                      │
+│                     ┌─────────┴──────────┐                       │
 │                     ▼                    ▼                       │
 │              QGIS (offline)        Cluster exports               │
-│              CCCM dashboard        Shelter / WASH / Health /    │
+│              CCCM dashboard        Shelter / WASH / Health /     │
 │              Master site map       Food / Protection             │
 └──────────────────────────────────────────────────────────────────┘
 ```
@@ -343,8 +343,9 @@ The CCCM training module on the roadmap converts after-action reviews from this 
 | Repository | Role variant |
 |---|---|
 | [andreshermoso/gente](https://github.com/andreshermoso/gente) | Core platform — full documentation and vision |
-| [andreshermoso/gente_DTM](https://github.com/andreshermoso/gente_DTM) | Senior IM Associate — DTM (22086) |
-| [andreshermoso/gente_IMS](https://github.com/andreshermoso/gente_IMS) | Senior IMS Registration Associate (22094) |
+| [andreshermoso/gente_DTM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_DTM) | Senior IM Associate — DTM (22086) |
+| [andreshermoso/gente_IMS](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_IMS) | Senior IMS Registration Associate (22094) |
+| [andreshermoso/gente_AVRR](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_AVRR) | Assistant (22252) |
 
 ---
 
