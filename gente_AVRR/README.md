@@ -49,30 +49,30 @@ GENTE AVRR addresses both challenges: it provides offline-capable documentation 
 │     Vulnerability screening — 12 indicator flags                 │
 │     Photo capture — document scan support                        │
 │                                                                  │
-│  Works fully offline — syncs over Wi-Fi hotspot to hub          │
+│  Works fully offline — syncs over Wi-Fi hotspot to hub           │
 └──────────────────────────────┬───────────────────────────────────┘
                                │
                                ▼
 ┌──────────────────────────────────────────────────────────────────┐
 │  FIELD COORDINATION HUB (IOM field office / mobile command)      │
 │                                                                  │
-│  avrr_pipeline.py                                               │
-│  │                                                              │
-│  ├── doc_verifier.py     → document completeness check          │
-│  │   Required fields, consent match, benefit authorization      │
-│  │   Missing document flags → generates follow-up task          │
-│  │                                                              │
-│  ├── vulnerability_screener.py → 12-indicator assessment        │
-│  │   Health / disability / unaccompanied minor /                │
-│  │   trafficking indicators / protection concern                │
-│  │   Threshold breach → immediate supervisor alert              │
-│  │                                                              │
-│  ├── case_tracker.py     → SpatiaLite case database             │
+│  avrr_pipeline.py                                                │
+│  │                                                               │
+│  ├── doc_verifier.py     → document completeness check           │
+│  │   Required fields, consent match, benefit authorization       │
+│  │   Missing document flags → generates follow-up task           │
+│  │                                                               │
+│  ├── vulnerability_screener.py → 12-indicator assessment         │
+│  │   Health / disability / unaccompanied minor /                 │
+│  │   trafficking indicators / protection concern                 │
+│  │   Threshold breach → immediate supervisor alert               │
+│  │                                                               │
+│  ├── case_tracker.py     → SpatiaLite case database              │
 │  │   Individual case records linked to migration corridor        │
-│  │   Assistance delivery log — pre-departure / post-arrival     │
-│  │   Status tracking: registered → verified → assisted → closed │
-│  │                                                              │
-│  └── field_reporter.py   → daily AVRR field report             │
+│  │   Assistance delivery log — pre-departure / post-arrival      │
+│  │   Status tracking: registered → verified → assisted → closed  │
+│  │                                                               │
+│  └── field_reporter.py   → daily AVRR field report               │
 │      Persons assisted / documentation gaps /                     │
 │      vulnerability flags / operational incidents                 │
 └──────────────────────────────────────────────────────────────────┘
@@ -347,9 +347,9 @@ For now, GENTE AVRR is focused on what matters most in the next operational day:
 | Repository | Role variant |
 |---|---|
 | [andreshermoso/gente](https://github.com/andreshermoso/gente) | Core platform — full documentation and vision |
-| [andreshermoso/gente_DTM](https://github.com/andreshermoso/gente_DTM) | Senior IM Associate — DTM (22086) |
-| [andreshermoso/gente_CCCM](https://github.com/andreshermoso/gente_CCCM) | Senior IM Associate — CCCM (22097) |
-| [andreshermoso/gente_IMS](https://github.com/andreshermoso/gente_IMS) | Senior IMS Registration Associate (22094) |
+| [andreshermoso/gente_DTM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_DTM) | Senior IM Associate — DTM (22086) |
+| [andreshermoso/gente_CCCM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_CCCM) | Senior IM Associate — CCCM (22097) |
+| [andreshermoso/gente_IMS](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_IMS) | Senior IMS Registration Associate (22094) |
 
 ---
 
