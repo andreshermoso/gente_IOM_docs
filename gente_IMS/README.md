@@ -60,7 +60,7 @@ GENTE IMS addresses these challenges with a probabilistic deduplication engine t
 ┌──────────────────────────────────────────────────────────────────┐
 │  REGISTRATION POINTS (no connectivity required)                  │
 │                                                                  │
-│  📱 KoboCollect → local Wi-Fi → KoboToolbox (Docker, offline)   │
+│  📱 KoboCollect → local Wi-Fi → KoboToolbox (Docker, offline)    │
 │                                                                  │
 │  Registration staff enter household and individual data          │
 │  Photo capture for visual verification (optional)                │
@@ -72,24 +72,24 @@ GENTE IMS addresses these challenges with a probabilistic deduplication engine t
 │  IMS COMMAND HUB (Senior IMS Registration Associate workstation) │
 │                                                                  │
 │  registration_pipeline.py                                        │
-│  │                                                              │
-│  ├── qa_validator.py      → field-level validation on intake    │
-│  │   Required fields, format checks, DOB plausibility,         │
-│  │   document number format, coordinate bounds                  │
-│  │                                                              │
-│  ├── dedup_engine.py      → probabilistic duplicate detection   │
-│  │   Weighted scoring: name + DOB + origin + family composition │
-│  │   Threshold-based: auto-merge | human review | clear        │
-│  │   Full audit trail of every decision                        │
-│  │                                                              │
-│  ├── db_manager.py        → SpatiaLite (ims_venezuela.sqlite)  │
-│  │   Households | Individuals | Documents | Audit log          │
-│  │                                                              │
-│  ├── stats_reporter.py    → daily registration statistics       │
-│  │   Total registered | New today | Pending review |           │
-│  │   Demographic breakdown | Coverage by municipio             │
-│  │                                                              │
-│  └── ims_exporter.py      → IOM IMS-compatible export          │
+│  │                                                               │
+│  ├── qa_validator.py      → field-level validation on intake     │
+│  │   Required fields, format checks, DOB plausibility,           │
+│  │   document number format, coordinate bounds                   │
+│  │                                                               │
+│  ├── dedup_engine.py      → probabilistic duplicate detection    │
+│  │   Weighted scoring: name + DOB + origin + family composition  │
+│  │   Threshold-based: auto-merge | human review | clear          │
+│  │   Full audit trail of every decision                          │
+│  │                                                               │
+│  ├── db_manager.py        → SpatiaLite (ims_venezuela.sqlite)    │
+│  │   Households | Individuals | Documents | Audit log            │
+│  │                                                               │
+│  ├── stats_reporter.py    → daily registration statistics        │
+│  │   Total registered | New today | Pending review |             │
+│  │   Demographic breakdown | Coverage by municipio               │
+│  │                                                               │
+│  └── ims_exporter.py      → IOM IMS-compatible export            │
 │                              XML / CSV / Excel                   │
 │                              Ready for institutional migration   │
 └──────────────────────────────────────────────────────────────────┘
@@ -407,6 +407,7 @@ The IMS training module on the GENTE roadmap converts these operational observat
 | [andreshermoso/gente](https://github.com/andreshermoso/gente) | Core platform — full documentation and vision |
 | [andreshermoso/gente_DTM](https://github.com/andreshermoso/gente_DTM) | Senior IM Associate — DTM (22086) |
 | [andreshermoso/gente_CCCM](https://github.com/andreshermoso/gente_CCCM) | Senior IM Associate — CCCM (22097) |
+| [andreshermoso/gente_CCCM](https://github.com/andreshermoso/gente_AVRR) | Assistant — AVRR (22252) |
 
 ---
 
