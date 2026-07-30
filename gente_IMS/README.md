@@ -1,3 +1,6 @@
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
 # GENTE — IMS
 ### Geospatial Emergency Network Training Engine
 #### *Information Management System Registration variant · IOM Venezuela earthquake response*
@@ -427,6 +430,9 @@ Developed in July 2026 in response to the Venezuela earthquake and as part of an
 MIT License — free to use, adapt, and deploy in humanitarian contexts.
 
 ---
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
 
 *"Cada persona merece ser contada una sola vez — y ninguna debe quedar sin contar."*  
 *(Every person deserves to be counted once — and none should go uncounted.)*
