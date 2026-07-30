@@ -1,6 +1,6 @@
-https://github.com/andreshermoso/gente_IOM_docs/blob/main/venezuela/gente.png
-
-<img width="464" height="481" alt="gente" src="https://github.com/user-attachments/assets/6829892f-13b5-4ecf-9062-69332f74848d" />
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+<br>
 
 
 # GENTE
