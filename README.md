@@ -1,4 +1,4 @@
-<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<img align="left" width="10%" alt="gentecolorvenezuela" src="https://github.com/user-attachments/assets/809093f2-dbaf-4c39-ba86-fc9bb9c109f1" />
 <br>
 
 # GENTE
