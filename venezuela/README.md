@@ -1,11 +1,6 @@
+<img align="left" width="10%" alt="gentecolorvenezuela" src="https://github.com/user-attachments/assets/809093f2-dbaf-4c39-ba86-fc9bb9c109f1" />
+<br>
 
-[<img align="left" width="120" height="100" alt="rhel" src="https://github.com/user-attachments/assets/e2bde08d-599b-4112-bbe5-b9c1b9fd4c07" />](https://www.redhat.com/)
-<br>
-<br>
-<br>
-<br>
-<img width="420" height="390" alt="SAPASE" src="https://github.com/user-attachments/assets/5e3236b0-ef08-4740-a64e-910893bf400c" />
-<br>
 
 # GENTE — Venezuela Operational Context
 
@@ -196,6 +191,9 @@ The people of Venezuela deserve better information systems in their worst moment
 **QGIS:** [qgis.org](https://qgis.org)
 
 ---
+<img align="left" width="10%" alt="gentecolorvenezuela" src="https://github.com/user-attachments/assets/809093f2-dbaf-4c39-ba86-fc9bb9c109f1" />
+<br>
+
 
 *Built in Caracas, July 2026.*  
 *For the gente.*
