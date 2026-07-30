@@ -15,7 +15,8 @@ GENTE was designed with that reality in mind. Its immediate purpose is to close 
 
 > *GENTE is not merely a technology project. It is a long-term humanitarian initiative focused on preparedness, institutional learning, and the human geography of Venezuelan displacement.*
 
-See [`venezuela/README.md`](venezuela/README.md) for the full humanitarian context and long-term vision.
+See [`venezuela/README.md`](venezuela/README.md) for the full humanitarian context
+and [`GENTE-Resilience/README.md`](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_R) for the long-term vision.
 
 ---
 
