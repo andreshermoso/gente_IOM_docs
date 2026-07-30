@@ -9,13 +9,13 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║  GENTE ECOSYSTEM — FIVE VARIANTS, ONE MISSION                              ║
-║                                                                            ║
-║  GENTE-DTM    Understanding population movements                           ║
-║  GENTE-CCCM   Supporting displaced populations and humanitarian coord.     ║
-║  GENTE-IMS    Managing critical humanitarian information and registration  ║
-║  GENTE-AVRR   Supporting voluntary return and sustainable reintegration    ║
-║  GENTE-R  ►   Preserving institutional knowledge · Building resilience     ║
+║  GENTE ECOSYSTEM — FIVE VARIANTS, ONE MISSION                                ║
+║                                                                              ║
+║  GENTE-DTM    Understanding population movements                             ║
+║  GENTE-CCCM   Supporting displaced populations and humanitarian coord.       ║
+║  GENTE-IMS    Managing critical humanitarian information and registration.   ║
+║  GENTE-AVRR   Supporting voluntary return and sustainable reintegration      ║
+║  GENTE-R  ►   Preserving institutional knowledge · Building resilience       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -191,7 +191,7 @@ GENTE-R is designed around a four-stage transformation cycle that converts opera
 │   Certification programs ──►    Institutional resilience            │
 │   E-learning modules     ──►    Self-sustaining knowledge growth    │
 │                                                                     │
-│              ▲______________________________________________▲        │
+│              ▲______________________________________________▲       │
 │                       Continuous feedback loop                      │
 └─────────────────────────────────────────────────────────────────────┘
 ```
@@ -238,20 +238,20 @@ GENTE-R is a knowledge management and training platform with five integrated mod
 ┌─────────────────────────────────────────────────────────────────────────┐
 │  GENTE-R PLATFORM ARCHITECTURE                                          │
 │                                                                         │
-│  ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐     │
-│  │  MODULE 1        │  │  MODULE 2        │  │  MODULE 3        │     │
-│  │  Knowledge       │  │  SOP Library     │  │  Training        │     │
-│  │  Repository      │  │  & Procedures    │  │  Content Engine  │     │
-│  │                  │  │                  │  │                  │     │
-│  │  Lessons learned │  │  Living SOPs     │  │  Scenarios       │     │
-│  │  Case studies    │  │  Field protocols │  │  Simulations     │     │
-│  │  Best practices  │  │  Checklists      │  │  Curricula       │     │
-│  │  Historical data │  │  Decision trees  │  │  Assessments     │     │
-│  └────────┬─────────┘  └────────┬─────────┘  └────────┬─────────┘     │
-│           │                     │                      │               │
-│           └─────────────────────┼──────────────────────┘               │
+│  ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐       │
+│  │  MODULE 1        │  │  MODULE 2        │  │  MODULE 3        │       │
+│  │  Knowledge       │  │  SOP Library     │  │  Training        │.      │
+│  │  Repository      │  │  & Procedures    │  │  Content Engine  │       │
+│  │                  │  │                  │  │                  │       │
+│  │  Lessons learned │  │  Living SOPs     │  │  Scenarios       │       │
+│  │  Case studies    │  │  Field protocols │  │  Simulations     │       │
+│  │  Best practices  │  │  Checklists      │  │  Curricula       │       │
+│  │  Historical data │  │  Decision trees  │  │  Assessments     │       │
+│  └────────┬─────────┘  └────────┬─────────┘  └────────┬─────────┘       │
+│           │                     │                      │                │
+│           └─────────────────────┼──────────────────────┘                │
 │                                 │                                       │
-│                    ┌────────────▼────────────┐                         │
+│                    ┌────────────▼────────────┐                          │
 │                    │   RAG KNOWLEDGE ENGINE   │                         │
 │                    │   (Ollama + local LLM)   │                         │
 │                    │                          │                         │
@@ -259,21 +259,21 @@ GENTE-R is a knowledge management and training platform with five integrated mod
 │                    │   Context-aware Q&A      │                         │
 │                    │   Content generation     │                         │
 │                    │   Gap identification     │                         │
-│                    └────────────┬────────────┘                         │
+│                    └────────────┬────────────┘                          │
 │                                 │                                       │
-│           ┌─────────────────────┼──────────────────────┐               │
-│           │                     │                      │               │
-│  ┌────────▼─────────┐  ┌────────▼─────────┐  ┌────────▼─────────┐    │
-│  │  MODULE 4        │  │  MODULE 5        │  │  DATA FEEDS      │    │
-│  │  Crisis          │  │  Capacity        │  │                  │    │
-│  │  Intelligence    │  │  Tracker         │  │  GENTE-DTM       │    │
-│  │  Monitor         │  │                  │  │  GENTE-CCCM      │    │
-│  │                  │  │  Local responder │  │  GENTE-IMS       │    │
-│  │  Social media    │  │  registry        │  │  GENTE-AVRR      │    │
-│  │  Signal detect.  │  │  Training logs   │  │  External APIs   │    │
-│  │  Misinformation  │  │  Cert. tracking  │  │  (offline-ready) │    │
-│  │  Early warning   │  │  Coverage maps   │  │                  │    │
-│  └──────────────────┘  └──────────────────┘  └──────────────────┘    │
+│           ┌─────────────────────┼──────────────────────┐                │
+│           │                     │                      │                │
+│  ┌────────▼─────────┐  ┌────────▼─────────┐  ┌────────▼─────────┐       │
+│  │  MODULE 4        │  │  MODULE 5        │  │  DATA FEEDS      │       │
+│  │  Crisis          │  │  Capacity        │  │                  │       │
+│  │  Intelligence    │  │  Tracker         │  │  GENTE-DTM       │       │
+│  │  Monitor         │  │                  │  │  GENTE-CCCM      │       │
+│  │                  │  │  Local responder │  │  GENTE-IMS       │       │
+│  │  Social media    │  │  registry        │  │  GENTE-AVRR      │       │
+│  │  Signal detect.  │  │  Training logs   │  │  External APIs   │       │
+│  │  Misinformation  │  │  Cert. tracking  │  │  (i.e. DTM API)  │       │
+│  │  Early warning   │  │  Coverage maps   │  │  (offline-ready) │       │
+│  └──────────────────┘  └──────────────────┘  └──────────────────┘       │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
