@@ -1,3 +1,6 @@
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
 # GENTE — DTM
 ### Geospatial Emergency Network Training Engine
 #### *Displacement Tracking Matrix variant · IOM Venezuela earthquake response*
@@ -306,6 +309,9 @@ Developed in July 2026 in response to the Venezuela earthquake and as part of an
 MIT License — free to use, adapt, and deploy in humanitarian contexts.
 
 ---
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
 
 *"Cada punto en el mapa es una familia. Cada familia merece ser contada."*  
 *(Every point on the map is a family. Every family deserves to be counted.)*
