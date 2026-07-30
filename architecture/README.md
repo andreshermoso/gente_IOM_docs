@@ -292,5 +292,5 @@ Total time from form submission to map point: **under 10 seconds** (Wi-Fi sync +
 <br>
 
 
-*See [`docs/deployment.md`](deployment.md) for step-by-step installation and field setup instructions.*  
-*See [`docs/venezuela-context.md`](venezuela-context.md) for the operational context that shaped these design decisions.*
+*See [`docs/deployment.md`](https://github.com/andreshermoso/gente_IOM_docs/tree/main/deployment/README.md) for step-by-step installation and field setup instructions.*  
+*See [`docs/venezuela-context.md`](https://github.com/andreshermoso/gente_IOM_docs/tree/main/venezuela/README.md) for the operational context that shaped these design decisions.*
