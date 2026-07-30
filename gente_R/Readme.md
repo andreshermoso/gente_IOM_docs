@@ -1,3 +1,6 @@
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
 # GENTE-R
 ## Geospatial Emergency Network Training Engine — Resilience
 
@@ -1043,6 +1046,9 @@ Training materials: Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).
 Regional replication is explicitly encouraged. If you are adapting GENTE-R for another Latin American or global humanitarian context, please open an issue or reach out directly. Every replication teaches something that makes the original better.
 
 ---
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
 
 *"La memoria humanitaria no debería evaporarse cuando termina la financiación. Debería crecer."*  
 *(Humanitarian memory should not evaporate when funding ends. It should grow.)*
