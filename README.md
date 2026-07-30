@@ -1,3 +1,4 @@
+https://github.com/andreshermoso/gente_IOM_docs/blob/main/venezuela/gente.png
 # GENTE
 ### Geospatial Emergency Network Training Engine
 #### *Inteligencia al servicio de nuestra gente*
