@@ -519,5 +519,5 @@ A system with 16 GB RAM and 8 GB GPU VRAM handles the full stack comfortably. Du
 <br>
 
 
-*See [`docs/architecture.md`](architecture.md) for the system design rationale behind these deployment decisions.*  
-*See [`docs/venezuela-context.md`](venezuela-context.md) for the operational context this deployment guide was written for.*
+*See [`docs/architecture.md`](https://github.com/andreshermoso/gente_IOM_docs/tree/main/architecture/README.md) for the system design rationale behind these deployment decisions.*  
+*See [`docs/venezuela-context.md`](https://github.com/andreshermoso/gente_IOM_docs/tree/main/venezuela/README.md) for the operational context this deployment guide was written for.*
