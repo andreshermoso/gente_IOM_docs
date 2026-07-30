@@ -257,6 +257,9 @@ MIT License — free to use, adapt, and deploy in humanitarian contexts.
 If you adapt GENTE for another disaster response context, please open a PR or reach out. Every deployment teaches something that makes the next one better.
 
 ---
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
 
 *"La información salva vidas — pero solo si llega a tiempo."*  
 *(Information saves lives — but only if it arrives in time.)*
