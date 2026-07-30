@@ -1,3 +1,12 @@
+
+[<img align="left" width="120" height="100" alt="rhel" src="https://github.com/user-attachments/assets/e2bde08d-599b-4112-bbe5-b9c1b9fd4c07" />](https://www.redhat.com/)
+<br>
+<br>
+<br>
+<br>
+<img width="420" height="390" alt="SAPASE" src="https://github.com/user-attachments/assets/5e3236b0-ef08-4740-a64e-910893bf400c" />
+<br>
+
 # GENTE — Venezuela Operational Context
 
 > *This document explains the humanitarian situation that GENTE was designed to address, the specific information management challenges of disaster response in Venezuela, and the gap between standard humanitarian IM tooling and what the field reality demands.*
