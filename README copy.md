@@ -1,3 +1,6 @@
+<img align="left" width="10%" alt="gentecolorvenezuela" src="https://github.com/user-attachments/assets/809093f2-dbaf-4c39-ba86-fc9bb9c109f1" />
+<br>
+
 # GENTE
 ### Geospatial Emergency Network Training Engine
 #### *Inteligencia al servicio de nuestra gente*
@@ -17,7 +20,7 @@ That long-term purpose now has a dedicated home: **GENTE-R (Resilience)**, the f
 
 > *GENTE is not merely a technology project. It is a long-term humanitarian initiative focused on preparedness, institutional learning, and the human geography of Venezuelan displacement.*
 
-See [`docs/venezuela-context.md`](docs/venezuela-context.md) for the full humanitarian context and long-term vision.
+See [`venezuela/README.md`](venezuela/README.md) for the full humanitarian context and long-term vision.
 
 ---
 
@@ -37,32 +40,32 @@ Field teams are left with paper forms, verbal radio reports, and maps printed be
 ┌─────────────────────────────────────────────────────────────────┐
 │  FIELD (no connectivity required)                               │
 │                                                                 │
-│  📱 KoboCollect (phone) ──► local Wi-Fi ──► KoboToolbox        │
-│                                              (Docker, offline) │
+│  📱 KoboCollect (phone) ──► local Wi-Fi ──► KoboToolbox         │
+│                                              (Docker, offline)  │
 └──────────────────────────────┬──────────────────────────────────┘
                                │ JSON via local API
                                ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │  COMMAND HUB (local machine)                                    │
 │                                                                 │
-│  kobo_to_qgis.py                                               │
-│  │                                                             │
-│  ├── ai_triage.py ──► Ollama (llama3.1:8b, local)             │
-│  │   Extract: severity / infrastructure / medical_need         │
+│  kobo_to_qgis.py                                                │
+│  │                                                              │
+│  ├── ai_triage.py ──► Ollama (llama3.1:8b, local)               │
+│  │   Extract: severity / infrastructure / medical_need          │
 │  │   Input language: Venezuelan Spanish                         │
 │  │   Output: structured JSON                                    │
-│  │                                                             │
-│  └── db_writer.py ──► SpatiaLite database                     │
+│  │                                                              │
+│  └── db_writer.py ──► SpatiaLite database                       │
 │                         disaster_triage.sqlite                  │
 │                               │                                 │
 │                               ▼                                 │
-│                        QGIS (offline)                          │
+│                        QGIS (offline)                           │
 │                        Operational map                          │
 │                        Color-coded by severity                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-See [`docs/architecture.md`](docs/architecture.md) for a detailed component breakdown and design rationale.
+See [`architecture/README.md`](architecture/README.md) for a detailed component breakdown and design rationale.
 
 ---
 
@@ -145,45 +148,17 @@ vehículos de rescate. 2 heridos reportados en el sector Las Mercedes."
 
 ---
 
-## Repository structure
-
-```
-gente/
-├── README.md                      ← this file
-├── requirements.txt               ← Python dependencies
-├── docs/
-│   ├── architecture.md            ← system design and component rationale
-│   ├── deployment.md              ← offline setup guide (hardware + software)
-│   └── venezuela-context.md       ← operational context, IM gap analysis, long-term vision
-├── pipeline/
-│   ├── kobo_to_qgis.py            ← main ETL orchestrator
-│   ├── ai_triage.py               ← Ollama prompt + JSON extractor
-│   ├── db_writer.py               ← SpatiaLite insert logic
-│   └── config.py                  ← endpoints, model names, paths
-├── forms/
-│   └── damage_survey_es.xlsx      ← KoboToolbox XLSForm (Spanish, earthquake)
-├── docker/
-│   └── docker-compose.yml         ← KoboToolbox + Ollama offline stack
-├── qgis/
-│   └── gente_project.qgz          ← QGIS project with Venezuela base layers
-└── tests/
-    ├── sample_data.json            ← fixture: 10 synthetic field reports
-    └── test_pipeline.py            ← smoke tests for pipeline components
-```
-
----
-
 ## The GENTE ecosystem
 
 This repository is the canonical GENTE platform. Five specialized variants form the complete ecosystem — four operational variants covering the active emergency response cycle, and one resilience variant designed to preserve institutional knowledge beyond the life of any single response operation:
 
 | Repository | Domain | Focus |
 |---|---|---|
-| [andreshermoso/gente_DTM](https://github.com/andreshermoso/gente_DTM) | Displacement Tracking Matrix | Displacement tracking, field team supervision, population mobility, geospatial analysis |
-| [andreshermoso/gente_CCCM](https://github.com/andreshermoso/gente_CCCM) | Camp Coordination & Management | Master site list management, inter-cluster coordination, collective centre monitoring |
-| [andreshermoso/gente_IMS](https://github.com/andreshermoso/gente_IMS) | IMS Registration | Individual registration, household deduplication, SQL schema design, system configuration |
-| [andreshermoso/gente_AVRR](https://github.com/andreshermoso/gente_AVRR) | Assisted Voluntary Return & Reintegration | Onsite documentation verification, vulnerability screening, case tracking, migration corridor monitoring |
-| [andreshermoso/gente_R](https://github.com/andreshermoso/gente_R) | **Resilience** — institutional memory | Knowledge ingestion from all four operational variants, SOP library, simulation scenarios, national preparedness curriculum, certification tracking — designed to outlast the funding |
+| [gente_DTM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_DTM) | Displacement Tracking Matrix | Displacement tracking, field team supervision, population mobility, geospatial analysis |
+| [gente_CCCM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_CCCM) | Camp Coordination & Management | Master site list management, inter-cluster coordination, collective centre monitoring |
+| [gente_IMS](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_IMS) | IMS Registration | Individual registration, household deduplication, SQL schema design, system configuration |
+| [gente_AVRR](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_AVRR) | Assisted Voluntary Return & Reintegration | Onsite documentation verification, vulnerability screening, case tracking, migration corridor monitoring |
+| [gente_R](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_R) | **Resilience** — institutional memory | Knowledge ingestion from all four operational variants, SOP library, simulation scenarios, national preparedness curriculum, certification tracking — designed to outlast the funding |
 
 ---
 
@@ -197,7 +172,7 @@ The June 24, 2026 earthquake caused widespread building collapse, road damage, a
 - **Language and geography**: field reports use Venezuelan Spanish, regional landmark references, and local administrative vocabulary not reliably handled by generic AI prompts
 - **Pre-existing displacement**: the earthquake intersected with existing internal migration corridors shaped by years of socioeconomic crisis, complicating population tracking
 
-See [`docs/venezuela-context.md`](docs/venezuela-context.md) for the full operational context, IM gap analysis, and long-term platform vision.
+See [`venezuela/README.md`](venezuela/README.md) for the full operational context, IM gap analysis, and long-term platform vision.
 
 ---
 
@@ -258,7 +233,7 @@ GENTE is a **proof-of-concept** demonstrating the architectural approach for off
 Systems Analyst | DataOps Architect | IM Specialist  
 Caracas, Bolivarian Republic of Venezuela  
 andres.hermoso@gmail.com | +58 412 701 0980  
-[LinkedIn](https://linkedin.com)
+[LinkedIn](https://www.linkedin.com/in/andres-hermoso-36aba345/)
 
 30 years of experience in data architecture, ETL pipeline design, BI, and enterprise systems integration across Venezuela, the Caribbean, and Latin America. GENTE was conceived and developed in July 2026 in response to the Venezuela earthquake, as a contribution to improving information management capacity in the affected region and to the longer-term goal of building Venezuela's national emergency preparedness ecosystem.
 
@@ -283,6 +258,9 @@ MIT License — free to use, adapt, and deploy in humanitarian contexts.
 If you adapt GENTE for another disaster response context, please open a PR or reach out. Every deployment teaches something that makes the next one better.
 
 ---
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
 
 *"La información salva vidas — pero solo si llega a tiempo."*  
 *(Information saves lives — but only if it arrives in time.)*
