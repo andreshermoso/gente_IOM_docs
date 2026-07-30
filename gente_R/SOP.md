@@ -29,3 +29,5 @@ Date | Version | Change | Changed by | Reason
 ### Related entries
 Links to relevant lessons learned, case studies, and training scenarios.
 ```
+
+<img align="left" alt="gente" src="https://github.com/user-attachments/assets/6829892f-13b5-4ecf-9062-69332f74848d" />
