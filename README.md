@@ -3,7 +3,6 @@
 
 # GENTE
 <br>
-<br>
 
 ### Geospatial Emergency Network Training Engine
 #### *Inteligencia al servicio de nuestra gente*
