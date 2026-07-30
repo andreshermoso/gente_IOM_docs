@@ -1,8 +1,4 @@
 <img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
-<br>
-<br>
-
-
 # GENTE
 ### Geospatial Emergency Network Training Engine
 #### *Inteligencia al servicio de nuestra gente*
