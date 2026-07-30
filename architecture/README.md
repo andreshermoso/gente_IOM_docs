@@ -1,3 +1,6 @@
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
 # GENTE — System Architecture
 
 > *This document describes the architectural decisions behind GENTE, the rationale for each component choice, and how the system behaves under the specific constraints of a disaster-affected field environment in Venezuela.*
@@ -285,6 +288,9 @@ Total time from form submission to map point: **under 10 seconds** (Wi-Fi sync +
 | QGIS crash | Map unavailable | Reopen project; SpatiaLite data is persistent |
 
 ---
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
 
 *See [`docs/deployment.md`](deployment.md) for step-by-step installation and field setup instructions.*  
 *See [`docs/venezuela-context.md`](venezuela-context.md) for the operational context that shaped these design decisions.*
