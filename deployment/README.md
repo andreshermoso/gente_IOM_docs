@@ -1,3 +1,7 @@
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
+
 # GENTE — Deployment Guide
 
 > *This guide covers everything needed to prepare, install, and operate a GENTE command hub for offline field deployment in a disaster-affected area. It assumes a technically competent operator (field IM coordinator or IT support) performing the setup before deployment, ideally with internet access during the preparation phase.*
@@ -511,6 +515,9 @@ sudo ufw deny from any
 A system with 16 GB RAM and 8 GB GPU VRAM handles the full stack comfortably. During Ollama inference (every ~60 seconds per submission batch), CPU spikes to ~80% for 3–5 seconds, then returns to idle.
 
 ---
+<img align="left" width="10%" alt="gente" alt="gentecolor" src="https://github.com/user-attachments/assets/44fa3eac-48f4-4e06-aab6-cdd3c0837372" />
+<br>
+
 
 *See [`docs/architecture.md`](architecture.md) for the system design rationale behind these deployment decisions.*  
 *See [`docs/venezuela-context.md`](venezuela-context.md) for the operational context this deployment guide was written for.*
