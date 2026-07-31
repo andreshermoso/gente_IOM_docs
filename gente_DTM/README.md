@@ -286,10 +286,11 @@ The long-term goal is that every future DTM deployment in Venezuela — earthqua
 
 | Repository | Role variant |
 |---|---|
-| [andreshermoso/gente](https://github.com/andreshermoso/gente) | Core platform — full documentation and vision |
-| [andreshermoso/gente_CCCM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_CCCM) | Senior IM Associate — CCCM (22097) |
-| [andreshermoso/gente_IMS](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_IMS) | Senior IMS Registration Associate (22094) |
-| [andreshermoso/gente_AVRR](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_AVRR) | Assistant - AVRR (22252) |
+| [gente](https://github.com/andreshermoso/gente) | Core platform — full documentation and vision |
+| [gente_CCCM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_CCCM) | Senior IM Associate — CCCM (22097) |
+| [gente_IMS](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_IMS) | Senior IMS Registration Associate (22094) |
+| [gente_AVRR](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_AVRR) | Assistant - AVRR (22252) |
+| [gente_R](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_R) | Resilience — institutional memory |
 
 ---
 
