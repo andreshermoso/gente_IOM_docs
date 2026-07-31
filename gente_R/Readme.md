@@ -255,13 +255,13 @@ GENTE-R is a knowledge management and training platform with five integrated mod
 │           └─────────────────────┼──────────────────────┘                │
 │                                 │                                       │
 │                    ┌────────────▼────────────┐                          │
-│                    │   RAG KNOWLEDGE ENGINE   │                         │
-│                    │   (Ollama + local LLM)   │                         │
-│                    │                          │                         │
-│                    │   Semantic search        │                         │
-│                    │   Context-aware Q&A      │                         │
-│                    │   Content generation     │                         │
-│                    │   Gap identification     │                         │
+│                    │   RAG KNOWLEDGE ENGINE  │                          │
+│                    │   (Ollama + local LLM)  │                          │
+│                    │                         │                          │
+│                    │   Semantic search       │                          │
+│                    │   Context-aware Q&A     │                          │
+│                    │   Content generation    │                          │
+│                    │   Gap identification    │                          │
 │                    └────────────┬────────────┘                          │
 │                                 │                                       │
 │           ┌─────────────────────┼──────────────────────┐                │
