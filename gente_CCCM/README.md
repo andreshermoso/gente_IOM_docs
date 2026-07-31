@@ -345,10 +345,11 @@ The CCCM training module on the roadmap converts after-action reviews from this 
 
 | Repository | Role variant |
 |---|---|
-| [andreshermoso/gente](https://github.com/andreshermoso/gente) | Core platform — full documentation and vision |
-| [andreshermoso/gente_DTM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_DTM) | Senior IM Associate — DTM (22086) |
-| [andreshermoso/gente_IMS](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_IMS) | Senior IMS Registration Associate (22094) |
-| [andreshermoso/gente_AVRR](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_AVRR) | Assistant (22252) |
+| [gente](https://github.com/andreshermoso/gente) | Core platform — full documentation and vision |
+| [gente_DTM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_DTM) | Senior IM Associate — DTM (22086) |
+| [gente_IMS](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_IMS) | Senior IMS Registration Associate (22094) |
+| [gente_AVRR](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_AVRR) | Assistant (22252) |
+| [gente_R](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_R) | Resilience — institutional memory |
 
 ---
 
