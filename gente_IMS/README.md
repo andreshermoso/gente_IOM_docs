@@ -407,10 +407,11 @@ The IMS training module on the GENTE roadmap converts these operational observat
 
 | Repository | Role variant |
 |---|---|
-| [andreshermoso/gente](https://github.com/andreshermoso/gente) | Core platform — full documentation and vision |
-| [andreshermoso/gente_DTM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_DTM) | Senior IM Associate — DTM (22086) |
-| [andreshermoso/gente_CCCM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_CCCM) | Senior IM Associate — CCCM (22097) |
-| [andreshermoso/gente_AVRR](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_AVRR) | Assistant — AVRR (22252) |
+| [gente](https://github.com/andreshermoso/gente) | Core platform — full documentation and vision |
+| [gente_DTM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_DTM) | Senior IM Associate — DTM (22086) |
+| [gente_CCCM](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_CCCM) | Senior IM Associate — CCCM (22097) |
+| [gente_AVRR](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_AVRR) | Assistant — AVRR (22252) |
+| [gente_R](https://github.com/andreshermoso/gente_IOM_docs/tree/main/gente_R) | Resilience — institutional memory |
 
 ---
 
